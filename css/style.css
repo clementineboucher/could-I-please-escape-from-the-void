@@ -20,17 +20,36 @@ p {
 }
 
 .header {
+	text-decoration: underline;	
 	text-align: left!important;
 	overflow: hidden;
-	padding: 0.5em;
+	/*padding: 0.5em;*/
 	float: left;			
 	position: absolute;
-	font-size: 2rem;
+	font-size: 1,5vw;
 	color: white;
 	z-index: 1;
 	top:1vw; 
 	left: 3%;
+	
 }
+
+.bottomheader {
+	text-align: center!important;
+	overflow: hidden;
+	padding: 0.5em;
+	float: left;			
+	position: absolute;
+	font-size: 1vw;
+	color: white;
+	z-index: 1;
+	top:147vw; 
+	/*left: 3%;*/
+	width: 100%;
+	
+}
+
+
 
 
 
@@ -43,7 +62,8 @@ img {
 .collapse img {
 	width: 100%; 
 	max-height: 100%;
-	z-index: 1
+	z-index: 1;
+
 }
 
 
@@ -59,6 +79,22 @@ img {
 	
 }
 
+
+#about {	
+	text-align: left!important;
+	overflow: hidden;
+	/*padding: 0.5em;*/
+	float: left;			
+	position: absolute;
+	color: white;
+	transition: none;
+	position: absolute; 
+	background-color: black; 
+	color: white; 
+	font-size: 1vw;
+	padding: 0.5vw;
+
+}
 
 /*Image One*/
 #collapseOneImg  {transition: none;position: absolute;}
